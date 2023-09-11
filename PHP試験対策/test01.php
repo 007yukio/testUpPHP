@@ -99,3 +99,30 @@ if("abc" > "xyz"){
     print ("CCC".PHP_EOL);
 }
 
+if('5member' < 44){
+    print("44".PHP_EOL);
+}else{
+    print ("".PHP_EOL);
+}
+
+if(strcmp("54321","6789") > 0){
+    print ("Over".PHP_EOL);
+}else{
+    print ("Under".PHP_EOL);
+}
+
+//パースエラーになる
+// $ans = 2 <=> 22.5
+
+// if ($ans > 0)
+//     print "Over";
+// }else{
+//     print "Under";
+// }
+
+$data = 80;
+if(($data >= 70) || ($data > 100)){
+    print ("Success".PHP_EOL);
+}elseif(($data >= 30) && ($data < 70)){
+    print ("Fail".PHP_EOL);
+}
