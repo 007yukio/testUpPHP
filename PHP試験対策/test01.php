@@ -126,3 +126,23 @@ if(($data >= 70) || ($data > 100)){
 }elseif(($data >= 30) && ($data < 70)){
     print ("Fail".PHP_EOL);
 }
+
+$i = 1;
+$add = 0;
+while(++$i < 10){
+    $add += $i;
+}
+
+print ($add.PHP_EOL);
+
+for($k = 0; $k <= 10; $k++){
+    if($k % 3 == 0){
+        print "3";
+    }elseif($k % 4 == 0){
+        print "4";
+    }else{
+        print "0";
+    }
+}
+
+echo "\n";
