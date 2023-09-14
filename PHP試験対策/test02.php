@@ -32,3 +32,12 @@ foreach($colors as $color){
 
 echo "============================".PHP_EOL;
 
+$colorss['sea']   = 'blue';
+$colorss['leaf']  ='green';
+$colorss['night'] ='black';
+$colorss['sun']   ='red';
+
+asort($colorss);
+foreach($colorss as $key => $value){
+    print "$key \t : $value\n";
+}
